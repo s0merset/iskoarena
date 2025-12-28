@@ -123,3 +123,7 @@ next-env.d.ts
 
 # turbopack cache
 .turbo
+
+# AI models
+.emergent
+*.emergent
