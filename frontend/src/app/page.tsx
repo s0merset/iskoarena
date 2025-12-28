@@ -29,10 +29,6 @@ export default function Home() {
                 <div className="text-center mb-12 relative z-20 animate-float">
                     <div className="inline-flex items-center justify-center relative mb-8">
                         <div className="absolute inset-0 bg-neon-blue blur-[60px] opacity-20 animate-pulse"></div>
-                        <div className="absolute inset-0 border border-neon-blue/20 rounded-full w-[160%] h-[160%] -translate-x-[18%] -translate-y-[18%] border-dashed animate-spin-slow pointer-events-none"></div>
-                        <div className="w-32 h-32 relative flex items-center justify-center border-4 border-neon-blue/30 rounded-full bg-cyber-dark z-10 shadow-[0_0_30px_rgba(0,243,255,0.2)] clip-path-circle">
-                            <span className="material-symbols-outlined text-7xl text-neon-blue drop-shadow-[0_0_15px_rgba(0,243,255,1)]">sports_basketball</span>
-                        </div>
                     </div>
                     
                     <h1 className="text-7xl md:text-8xl font-black tracking-tighter text-white uppercase italic transform -skew-x-6 drop-shadow-2xl">

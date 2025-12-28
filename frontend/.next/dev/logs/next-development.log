@@ -1,0 +1,498 @@
+[00:00:04.696] Server  LOG     ✓ Ready in 4.2s
+[00:00:26.067] Server  LOG     ○ Compiling / ...
+[00:00:28.334] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:56.041] Server  LOG     ✓ Compiled in 151ms
+[00:06:07.770] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:19.990] Server  ERROR   ⨯ ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+
+[00:06:20.126] Browser ERROR   ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+[00:06:21.456] Browser ERROR   ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+[00:06:21.665] Browser ERROR   ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+[00:06:22.657] Browser ERROR   ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+[00:06:22.723] Server  ERROR   ⨯ ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+
+[00:06:23.217] Browser ERROR   uncaughtError: Error: ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+
+[00:06:23.217] Browser ERROR   ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+[00:06:23.217] Browser ERROR   ./frontend/src/app/signup/page.tsx:8:14
+Ecmascript file had an error
+   6 | import { useRouter } from "next/navigation"; 
+   7 |
+>  8 | export const metadata: Metadata = {
+     |              ^^^^^^^^
+   9 |   title: "IskoArena - Sign Up",
+  10 | };
+  11 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./frontend/src/app/signup/page.tsx [Client Component Browser]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./frontend/src/app/signup/page.tsx [Client Component SSR]
+    ./frontend/src/app/signup/page.tsx [Server Component]
+[00:07:39.320] Server  LOG     ✓ Compiled in 101ms
+[00:07:39.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:40.228] Server  LOG     ✓ Compiled in 0ms
+[00:07:40.661] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[00:07:45.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:46.714] Server  ERROR   ⨯ ./frontend/src/components/Sidebar.tsx:3:10
+Ecmascript file had an error
+  1 | import React from 'react';
+  2 | import Link from 'next/link';
+> 3 | import { usePathname } from 'next/navigation';
+    |          ^^^^^^^^^^^
+  4 |
+  5 | export default function Sidebar() {
+  6 |   // We can use usePathname to highlight active links if we want to add that logic later
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./frontend/src/components/Sidebar.tsx
+    ./frontend/src/app/dashboard/layout.tsx
+
+
+[00:07:46.788] Browser ERROR   ./frontend/src/components/Sidebar.tsx:3:10
+Ecmascript file had an error
+  1 | import React from 'react';
+  2 | import Link from 'next/link';
+> 3 | import { usePathname } from 'next/navigation';
+    |          ^^^^^^^^^^^
+  4 |
+  5 | export default function Sidebar() {
+  6 |   // We can use usePathname to highlight active links if we want to add that logic later
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./frontend/src/components/Sidebar.tsx
+    ./frontend/src/app/dashboard/layout.tsx
+[00:07:46.811] Server  ERROR   ⨯ ./frontend/src/components/Sidebar.tsx:3:10
+Ecmascript file had an error
+  1 | import React from 'react';
+  2 | import Link from 'next/link';
+> 3 | import { usePathname } from 'next/navigation';
+    |          ^^^^^^^^^^^
+  4 |
+  5 | export default function Sidebar() {
+  6 |   // We can use usePathname to highlight active links if we want to add that logic later
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./frontend/src/components/Sidebar.tsx
+    ./frontend/src/app/dashboard/layout.tsx
+
+
+[00:07:47.074] Browser ERROR   uncaughtError: Error: ./frontend/src/components/Sidebar.tsx:3:10
+Ecmascript file had an error
+  1 | import React from 'react';
+  2 | import Link from 'next/link';
+> 3 | import { usePathname } from 'next/navigation';
+    |          ^^^^^^^^^^^
+  4 |
+  5 | export default function Sidebar() {
+  6 |   // We can use usePathname to highlight active links if we want to add that logic later
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./frontend/src/components/Sidebar.tsx
+    ./frontend/src/app/dashboard/layout.tsx
+
+
+[00:07:47.216] Browser ERROR   ./frontend/src/components/Sidebar.tsx:3:10
+Ecmascript file had an error
+  1 | import React from 'react';
+  2 | import Link from 'next/link';
+> 3 | import { usePathname } from 'next/navigation';
+    |          ^^^^^^^^^^^
+  4 |
+  5 | export default function Sidebar() {
+  6 |   // We can use usePathname to highlight active links if we want to add that logic later
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./frontend/src/components/Sidebar.tsx
+    ./frontend/src/app/dashboard/layout.tsx
+[00:07:47.216] Browser ERROR   ./frontend/src/components/Sidebar.tsx:3:10
+Ecmascript file had an error
+  1 | import React from 'react';
+  2 | import Link from 'next/link';
+> 3 | import { usePathname } from 'next/navigation';
+    |          ^^^^^^^^^^^
+  4 |
+  5 | export default function Sidebar() {
+  6 |   // We can use usePathname to highlight active links if we want to add that logic later
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./frontend/src/components/Sidebar.tsx
+    ./frontend/src/app/dashboard/layout.tsx
+[00:08:50.556] Server  LOG     ✓ Compiled in 80ms
+[00:08:51.067] Server  LOG     ✓ Compiled in 103ms
+[00:08:51.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:04.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:18.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:40.341] Server  ERROR   ⨯ ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+
+
+[00:13:40.379] Server  ERROR   ⨯ ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+
+
+[00:13:40.402] Server  ERROR   ⨯ ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+
+
+[00:13:42.768] Browser ERROR   ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+[00:13:42.768] Browser ERROR   ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+[00:13:42.768] Browser ERROR   uncaughtError: Error: ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+
+
+[00:13:42.768] Browser ERROR   ./frontend/src/app/page.tsx:100:19
+Parsing ecmascript source code failed
+   98 |                     </div>
+   99 |                 </div>
+> 100 |             </div>
+      |                   ^
+> 101 |         </main>
+      | ^^^^^^^^^
+  102 |     </div>
+  103 |   );
+  104 | }
+
+Expected '</', got 'jsx text (
+        )'
+[00:13:57.035] Server  ERROR   ⨯ ./frontend/src/app/page.tsx:101:19
+Parsing ecmascript source code failed
+   99 |                     </div>
+  100 |                 </div>
+> 101 |             </div>
+      |                   ^
+> 102 |         </main>
+      | ^^^^^^^^^
+  103 |     </div>
+  104 |   );
+  105 | }
+
+Expected '</', got 'jsx text (
+        )'
+
+
+[00:13:57.444] Browser ERROR   ./frontend/src/app/page.tsx:101:19
+Parsing ecmascript source code failed
+   99 |                     </div>
+  100 |                 </div>
+> 101 |             </div>
+      |                   ^
+> 102 |         </main>
+      | ^^^^^^^^^
+  103 |     </div>
+  104 |   );
+  105 | }
+
+Expected '</', got 'jsx text (
+        )'
+[00:13:57.444] Browser ERROR   ./frontend/src/app/page.tsx:101:19
+Parsing ecmascript source code failed
+   99 |                     </div>
+  100 |                 </div>
+> 101 |             </div>
+      |                   ^
+> 102 |         </main>
+      | ^^^^^^^^^
+  103 |     </div>
+  104 |   );
+  105 | }
+
+Expected '</', got 'jsx text (
+        )'
+[00:13:57.444] Browser ERROR   uncaughtError: Error: ./frontend/src/app/page.tsx:101:19
+Parsing ecmascript source code failed
+   99 |                     </div>
+  100 |                 </div>
+> 101 |             </div>
+      |                   ^
+> 102 |         </main>
+      | ^^^^^^^^^
+  103 |     </div>
+  104 |   );
+  105 | }
+
+Expected '</', got 'jsx text (
+        )'
+
+
+[00:14:12.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:14.616] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:20.025] Server  LOG     ✓ Compiled in 97ms
+[00:16:31.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:55.864] Server  LOG     ✓ Compiled in 103ms

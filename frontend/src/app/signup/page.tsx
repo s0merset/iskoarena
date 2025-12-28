@@ -1,13 +1,27 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
-import { Metadata } from "next";
+import { useRouter } from "next/navigation"; 
 
-export const metadata: Metadata = {
-  title: "IskoArena - Sign Up",
-};
 
 export default function Signup() {
-  return (
+  const router = useRouter();
+
+  const handleSignup = async () => {
+    // TODO: Replace with your actual signup logic (API call)
+    const success = true; // Assume signup is successful
+
+    if (success) {
+      // Redirect to dashboard
+      router.push("/dashboard");
+    } else {
+      // Handle error
+      alert("Signup failed!");
+    }
+  };
+
+   return (
     <div className="bg-cyber-black text-slate-300 font-display overflow-hidden flex h-screen w-full relative selection:bg-neon-blue selection:text-black">
       <div className="fixed inset-0 pointer-events-none z-0 opacity-20" style={{backgroundImage: "linear-gradient(#1e293b 1px, transparent 1px), linear-gradient(90deg, #1e293b 1px, transparent 1px)", backgroundSize: "40px 40px"}}></div>
       <div className="fixed inset-0 pointer-events-none z-0 bg-cyber-grid"></div>
@@ -65,7 +79,7 @@ export default function Signup() {
                 I agree to the <Link className="text-neon-blue hover:underline decoration-neon-blue/50" href="#">Terms of Service</Link> and <Link className="text-neon-blue hover:underline decoration-neon-blue/50" href="#">Privacy Policy</Link> regarding admin data usage.
               </label>
             </div>
-            <button className="w-full bg-neon-blue text-black font-bold py-3.5 rounded-none clip-corner uppercase tracking-wider hover:bg-white hover:shadow-[0_0_30px_rgba(0,243,255,0.6)] transition-all mt-4 flex items-center justify-center gap-2 group/btn relative overflow-hidden" type="button">
+            <button className="w-full bg-neon-blue text-black font-bold py-3.5 rounded-none clip-corner uppercase tracking-wider hover:bg-white hover:shadow-[0_0_30px_rgba(0,243,255,0.6)] transition-all mt-4 flex items-center justify-center gap-2 group/btn relative overflow-hidden" type="button" onClick={handleSignup}>
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300"></div>
               <span className="relative z-10">Initialize Account</span>
               <span className="material-symbols-outlined group-hover/btn:rotate-12 transition-transform relative z-10">rocket_launch</span>

@@ -1,10 +1,11 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 export default function Sidebar() {
   // We can use usePathname to highlight active links if we want to add that logic later
-  // const pathname = usePathname();
+  const pathname = usePathname();
 
   return (
     <aside className="w-20 xl:w-72 h-full flex flex-col border-r border-slate-800 bg-cyber-dark/90 backdrop-blur-xl shrink-0 z-30 transition-all duration-300 relative group hidden lg:flex">
