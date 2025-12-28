@@ -55,46 +55,50 @@ module.exports = {
                                 '4': 'hsl(var(--chart-4))',
                                 '5': 'hsl(var(--chart-5))'
                         },
-                        "cyber-black": "#050b14",
-                        "cyber-dark": "#0f1623",
+                        // Custom Project Colors
+                        "cyber-black": "#020617", // Updated to darker slate from new design
+                        "cyber-dark": "#0f172a",
+                        "cyber-panel": "#1e293b",
                         "cyber-gray": "#1e293b",
-                        "neon-blue": "#00f3ff",
-                        "neon-purple": "#bc13fe",
-                        "neon-green": "#0aff68",
+                        "neon-blue": "#00f0ff", // Updated to #00f0ff from new design
+                        "neon-purple": "#bd00ff",
+                        "neon-green": "#00ff9f",
                         "neon-orange": "#ff8800",
+                        "neon-yellow": "#fcee0a",
+                        "neon-red": "#ff2a6d",
                 },
                 fontFamily: {
                     "display": ["Lexend", "sans-serif"],
                     "mono": ["JetBrains Mono", "monospace"]
                 },
                 backgroundImage: {
-                    "cyber-grid": "radial-gradient(circle at 50% 50%, rgba(0, 243, 255, 0.05) 0%, transparent 50%)",
-                    "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+                    "cyber-grid": "linear-gradient(to right, #1e293b 1px, transparent 1px), linear-gradient(to bottom, #1e293b 1px, transparent 1px)",
+                    "glass-gradient": "linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.6))",
                 },
                 boxShadow: {
-                    "neon": "0 0 5px theme('colors.neon-blue'), 0 0 20px theme('colors.neon-blue')",
+                    "neon": "0 0 10px theme('colors.neon-blue'), 0 0 20px theme('colors.neon-blue')",
                     "neon-purple": "0 0 5px theme('colors.neon-purple'), 0 0 20px theme('colors.neon-purple')",
+                    "neon-glow": "0 0 5px theme('colors.neon-blue'), 0 0 10px rgba(0, 240, 255, 0.5)",
                 },
                 keyframes: {
                         'accordion-down': {
-                                from: {
-                                        height: '0'
-                                },
-                                to: {
-                                        height: 'var(--radix-accordion-content-height)'
-                                }
+                                from: { height: '0' },
+                                to: { height: 'var(--radix-accordion-content-height)' }
                         },
                         'accordion-up': {
-                                from: {
-                                        height: 'var(--radix-accordion-content-height)'
-                                },
-                                to: {
-                                        height: '0'
-                                }
+                                from: { height: 'var(--radix-accordion-content-height)' },
+                                to: { height: '0' }
                         },
                         float: {
                             '0%, 100%': { transform: 'translateY(0)' },
                             '50%': { transform: 'translateY(-20px)' },
+                        },
+                        scanline: {
+                            '0%': { transform: 'translateY(-100%)' },
+                            '100%': { transform: 'translateY(100%)' },
+                        },
+                        shimmer: {
+                            '100%': { transform: 'translateX(100%)' }
                         }
                 },
                 animation: {
